@@ -1,0 +1,217 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.cabecera-uno{
+    padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 1215px){
+    .container-uno{
+        width: 100%;
+    }
+    
+}
+    
+/* buscador */
+
+.card__buscador{
+    background: #EEEEEE;
+    border:1px solid black;
+    border-radius: 8px;
+    width: 530px;
+    height: 30px;
+    padding: 6px 14px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    color: black;
+    margin-left: 25px;
+  }
+  .card__buscador input{
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  /* carrito sesion */
+.card__carrito .carrito {
+    color: #ffc107;
+    margin: auto 2rem;
+    font-size: 2rem;
+    /* width: 2rem;
+    height: 2rem; */
+}
+.card__sesion{
+    display: flex;
+    gap: 15px;
+}
+.card__sesion .i-sesion{
+    color: #ffc107;
+    font-size: 2rem;
+    /* width: 2rem;
+    height: 2rem; */
+}
+.card__sesion .sesion{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    height: 48px;
+    line-height: 100%;
+}
+/* navegador */
+
+.card__navegador-border{
+    border-top: 1px solid #473d3da8;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .card-redes-sociales svg{
+    width: 2rem;
+    height: 2rem;
+    margin: auto 0.5rem;
+    color: white;
+} */
+
+  /* info financiera */
+
+.card__financiamiento{
+    display: flex;
+    /* margin: 55px auto; */
+    justify-content: space-around;
+    margin: 3rem auto;
+}
+.financiamiento{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.card__financiamiento i{
+    font-size: 50px;
+    color: #ffc107;
+}
+.card__financiamiento p{
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+/* carousel */
+
+@media screen and (max-width: 1198px) {
+    .container-dos{
+        width: 100%;
+    }
+    .carousel img{
+        width: 71%;
+        /* height: 100%; */
+    }
+    
+}
+
+.carousel{
+    display: flex;
+    justify-content: space-around;
+    width: 71%;
+    align-items: flex-end;
+}
+.card__carusel-border{
+    border: 2px solid #7A7A7A;
+}
+.list{
+    width: 20%;
+    text-align: center;
+}
+
+/* productos */
+
+.card__productos h2{
+    margin: 3rem auto;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #473d3da8;
+}
+.productos-destacados-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.pagination{
+    justify-content: center;
+    margin: 4rem auto;
+}
+
+/* marcas */
+
+.card__marcas h2{
+    margin-bottom: 2rem;
+}
+.marcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+.marcas .durlock{
+    width: 158px;
+    height: 37px;
+}
+.marcas .ferrum{
+    width: 158px;
+    height: 37px;
+}
+.marcas .fv{
+    width: 176px;
+    height: 37px;
+}
+.marcas .lm{
+    width: 113px;
+    height: 94px;
+}
+.marcas .weber{
+    width: 152px;
+    height: 53px;
+}
+.marcas .venier{
+    width: 122px;
+    height: 63px;
+}
+
+/* footer */
+
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+    padding: 0 3rem;
+}
+.card-footer a{
+    text-decoration: none;
+    color: white;
+}
+.card-span{
+    margin-bottom: 20px;
+}
+
+.card-footer .enlaces-uno a{
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+.card-footer .enlaces-dos a{
+    margin-right: 15px;
+    font-size: 18px;
+}
+.card-redes-sociales svg{
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+}
+
